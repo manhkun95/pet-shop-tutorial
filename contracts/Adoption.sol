@@ -7,7 +7,7 @@ contract Adoption {
         adopters[petId] = msg.sender;
         return petId;
     }
-    function getAdopter() public view returns (address[16]){
+    function getAdopters() public view returns (address[16]){
         return adopters;
     }
 }
